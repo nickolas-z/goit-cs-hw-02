@@ -61,10 +61,16 @@
 - Використано `Docker Compose`, команду `docker-compose up` для побудови та запуску середовища.
 - Застосунок є функціональним, а база даних — доступною, що підтверджується натисканням кнопки `Перевірити БД`.
 
+### Запуск та перевірка
+- Додати субмодуль [Computer-Systems-hw02](https://github.com/nickolas-z/Computer-Systems-hw02)
+    - `git submodule add git@github.com:nickolas-z/Computer-Systems-hw02.git Computer-Systems-hw02`
+- Запуск:
+    - `cd Computer-Systems-hw02`
+    - `docker-compose up --build`
 
 
 ### Ресурси
-- [task2.py](./task2.py)
+- [Computer-Systems-hw02](./Computer-Systems-hw02)
 
 ## Додатково
 - [Домашнє завдання до модуля "Основи операційних систем"](https://www.edu.goit.global/uk/learn/25315460/19336208/21190481/homework)

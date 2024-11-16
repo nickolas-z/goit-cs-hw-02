@@ -2,12 +2,7 @@
 Тема 4. Введення в Docker та контейнеризацію
 
 Перед початком роботи:
-1. Версія **Python: >=3.10**
-2. Cтворюємо віртуальне середовище (Python: >=3.10) `.env`: `python -m venv .env`
-3. Активуємо (відповідно до своєї ОС): `source .env/bin/activate`
-4. Інсталюємо залежності: `pip install -r requirements.txt`
-5. По завершенню роботи деактивовуємо: `deactivate`
-
+1. `git clone --recurse-submodules git@github.com:nickolas-z/goit-cs-hw-02.git`
 
 ## Завдання 1
 Напишіть скрипт, який автоматично перевіряє, чи доступні певні вебсайти. Скрипт повинен використовувати команду `curl` для надсилання `HTTP GET` запитів до кожного сайту у списку та перевірки відповіді.
@@ -62,18 +57,20 @@
 - Застосунок є функціональним, а база даних — доступною, що підтверджується натисканням кнопки `Перевірити БД`.
 
 ### Запуск та перевірка
-- Додати субмодуль [Computer-Systems-hw02](https://github.com/nickolas-z/Computer-Systems-hw02)
-    - `git submodule add git@github.com:nickolas-z/Computer-Systems-hw02.git Computer-Systems-hw02`
-- Запуск:
-    - `cd Computer-Systems-hw02`
-    - `docker-compose up --build`
+- `cd Computer-Systems-hw02`
+- `docker-compose up --build`
+- Заходимо в браузері на сторінку `localhost`
+- В результаті маємо побачити наступну сторінку:
+![task2_result.png](./task2_result.png)
 
 
 ### Ресурси
-- [Computer-Systems-hw02](./Computer-Systems-hw02)
+- [Computer-Systems-hw02](https://github.com/nickolas-z/Computer-Systems-hw02)
+- [Dockerfile](https://github.com/nickolas-z/Computer-Systems-hw02/blob/main/Dockerfile)
+- [docker-compose.yaml](https://github.com/nickolas-z/Computer-Systems-hw02/blob/main/docker-compose.yaml)
 
 ## Додатково
 - [Домашнє завдання до модуля "Основи операційних систем"](https://www.edu.goit.global/uk/learn/25315460/19336208/21190481/homework)
 - [https://github.com/nickolas-z/goit-cs-hw-02](https://github.com/nickolas-z/goit-cs-hw-02)
-- [goit-cs-hw-01-main.zip]()
+- [goit-cs-hw-02-main.zip](https://s3.eu-north-1.amazonaws.com/lms.goit.files/c6c978f0-a718-45cc-b52f-4c250d3c3a3f%D0%94%D0%972_%D0%97%D1%83%D0%B1%D1%87%D0%B8%D0%BA%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87.zip)
 - [Computer-Systems-and-Their-Fundamentals](https://github.com/nickolas-z/Computer-Systems-and-Their-Fundamentals)

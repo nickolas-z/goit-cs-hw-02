@@ -1,0 +1,6 @@
+[submodule "task2/Computer-Systems-hw02"]
+	path = task2/Computer-Systems-hw02
+	url = https://github.com/GoIT-Python-Web/Computer-Systems-hw02.git
+[submodule "Computer-Systems-hw02"]
+	path = Computer-Systems-hw02
+	url = git@github.com:nickolas-z/Computer-Systems-hw02.git
